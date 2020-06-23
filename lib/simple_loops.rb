@@ -22,6 +22,7 @@ end
 
 def return_string_array (array)
    new_array = array.map {|element| #{element}.to_s}
+   print new_array 
  end
     
     
