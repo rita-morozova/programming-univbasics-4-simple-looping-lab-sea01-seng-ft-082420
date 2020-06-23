@@ -21,8 +21,8 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-    new_array = array.each do |parameter|
-      puts #{parameter.to_s}
+    new_array = array.each do |parameter|.to_s
+      puts #{parameter}
     end
   return new_array 
 end 
