@@ -23,10 +23,10 @@ end
 def return_string_array (array)
     counter = 0 
     while array[counter] do 
-      puts new_array = array.push[counter] 
+      print new_array = array.push[counter.to_s] 
       counter +=1 
     end
-  new_array.to_s  
+  new_array  
 end 
     
     
