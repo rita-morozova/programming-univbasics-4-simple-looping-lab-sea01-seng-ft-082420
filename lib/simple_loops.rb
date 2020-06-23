@@ -21,10 +21,10 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-    new_array =array.each do |parameter|
+    new_array = array.each do |parameter|
       puts #{parameter.to_s}
     end
-  new_array 
+  return new_array 
 end 
     
     
