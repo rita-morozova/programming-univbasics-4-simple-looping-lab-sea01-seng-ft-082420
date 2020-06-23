@@ -21,7 +21,7 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-     new_array = array.each do |element|
+     new_array == array.each do |element|
      puts #{element}.to_s
    end 
    new_array
