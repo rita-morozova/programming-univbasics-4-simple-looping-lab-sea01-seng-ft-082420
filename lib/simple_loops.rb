@@ -21,10 +21,8 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-     counter = 0
-     while array [counter] do 
-       puts new_array = array[counter].join ()
-       counter +=1 
+     new_array = array.each do |element|
+      #{element}.join ()
    end 
    new_array
  end
