@@ -22,7 +22,7 @@ end
 
 def return_string_array (array)
      new_array = array.each do |element|
-      #{element}.join (",")
+      #{element}.join (", ")
    end 
    new_array
  end
