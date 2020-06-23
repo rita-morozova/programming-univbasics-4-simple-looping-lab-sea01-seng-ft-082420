@@ -21,12 +21,10 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-    counter = 0 
-    while array[counter] do 
-      puts array[counter]
-      counter +=1 
+    new_array =array.each do |parameter|
+      puts #{parameter}.to_s
     end
-  new_array = array[counter].to_s  
+  new_array 
 end 
     
     
