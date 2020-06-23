@@ -22,7 +22,7 @@ end
 
 def return_string_array (array)
      new_array = array.each do |element|
-     print #{element}.to_s
+     p #{element}.to_s
    end 
    new_array
  end
