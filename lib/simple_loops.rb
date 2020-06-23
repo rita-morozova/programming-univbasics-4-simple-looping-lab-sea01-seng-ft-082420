@@ -21,10 +21,8 @@ def output_array (array)
 end 
 
 def return_string_array (array)
-   counter = 0 
-   while array[counter] do 
-     puts new_array = (array[counter]).to_s
-     counter +=1 
+     new_array = array.each do |element|
+     puts "#{element.to_s}"
    end 
    new_array
  end
